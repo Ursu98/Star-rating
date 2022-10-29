@@ -26,7 +26,6 @@
     cursor: pointer;
     font-style: normal;
 }
-
 body {
     align-items: center;
     background: #000;
@@ -36,14 +35,12 @@ body {
     justify-content: center;
     margin: 0;
 }
-
 .rate{
     margin: 0;
 }
 .container{
     height: 400px;
 }
-
 .text{
     text-align: center;
     margin: 10px;
@@ -51,5 +48,4 @@ body {
     color: white;
     border: red;
     display: block;
-
 }
