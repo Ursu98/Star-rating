@@ -1,0 +1,54 @@
+.rate i, .rate i:hover ~ i {
+    border: 1px solid red;
+    color: #222;
+    text-shadow: none;
+    transition: color 200ms,
+    text-shadow 200ms;
+}
+.rate:hover i {
+    color: #fc0;
+    text-shadow: #fc0 0 0 20px;
+}
+.rate:hover i:nth-child(2) {
+    transition-delay: 30ms;
+}
+.rate:hover i:nth-child(3) {
+    transition-delay: 60ms;
+}
+.rate:hover i:nth-child(4) {
+    transition-delay: 90ms;
+}
+.rate:hover i:nth-child(5) {
+    transition-delay: 120ms;
+}
+.rate i {
+    cursor: pointer;
+    font-style: normal;
+}
+
+body {
+    align-items: center;
+    background: #000;
+    display: flex;
+    font-size: 48px;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+}
+
+.rate{
+    margin: 0;
+}
+.container{
+    height: 400px;
+}
+
+.text{
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+    color: white;
+    border: red;
+    display: block;
+
+}
