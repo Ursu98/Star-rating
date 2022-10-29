@@ -2,7 +2,9 @@
    They will also override the hover
    style for all stars to the right
    of the currently hovered star. */
+
 .rate i, .rate i:hover ~ i {
+    border: 1px solid red;
     color: #222;
     text-shadow: none;
     transition: color 200ms,
