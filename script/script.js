@@ -1,4 +1,4 @@
-
+//JS este facut de domnishoara Corina
 const stars = document.querySelectorAll('i');
 const text = document.querySelector('.text')
 console.log(stars)
