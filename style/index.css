@@ -1,6 +1,4 @@
-
 .rate i, .rate i:hover ~ i {
-    border: 1px solid red;
     color: #222;
     text-shadow: none;
     transition: color 200ms,
@@ -48,4 +46,14 @@ body {
     color: white;
     border: red;
     display: block;
+}
+i{
+    display: inline-block;
+}
+.animated {
+    animation: mymove 1.5s;
+    font-size: 50px;
+}
+@keyframes mymove {
+    50% {transform: rotate(180deg);}
 }
